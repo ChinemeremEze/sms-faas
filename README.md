@@ -1,7 +1,6 @@
 # Lab 4
 ### Structure/Guide
 
-For more information, read the Overview for Week 7, 8 and 9 in Canvas.
 
 ### Development
 
