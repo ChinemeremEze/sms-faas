@@ -1,0 +1,29 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "For more information, read the Overview for Week 7, 8 and 9 in Canvas.",
+  "main": "server.js",
+  "scripts": {
+    "setup": "npm install && cd twilio && npm install",
+    "dev": "nodemon -e env,js,mustache ./server.js",
+    "deploy": "cd ./twilio && twilio serverless:deploy",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mustache-express": "^1.3.0",
+    "nodemon": "^2.0.6",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^5.0.0",
+    "uniqid": "^5.2.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

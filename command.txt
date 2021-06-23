@@ -1,0 +1,4 @@
+Bot Number: 289 206-8843
+
+Genaral definition of the command: astto
+It reports the number of astronants curren5ly in space, along with their names.
